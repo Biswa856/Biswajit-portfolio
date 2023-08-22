@@ -1,0 +1,66 @@
+
+.hero .img-container{
+    border: 15px solid #F94C10;
+}
+.hero .img-fluid{
+
+    height: 600px;
+
+}
+.instagram-btn{
+    background: radial-gradient(
+        circle farthest-corner at 0% 150%,
+        rgb(255, 225, 125) 0%,
+        rgb(255, 205, 105) 12%,
+        rgb(250, 145, 55) 25%,
+        rgb(235, 65, 65) 41%,
+        transparent 95%
+      ),
+      linear-gradient(-15deg, rgb(35, 75, 215) -10%, rgb(195, 60, 190) 65%);
+    background-size: 120% 120%;
+    animation: GradientBackground 5s ease-out infinite;
+}
+.instagram-btn > span{
+    color: white;
+}
+.linkedin-btn{
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.linkedin-btn:hover{
+    background-color: #0072b1 ;
+    color: white;
+    border: none;
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+/* .card-container{
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.card > img{
+    border: 8px solid #C70039;
+}
+
+
+.btn-link{
+    background-color: #C70039;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color: #F8DE22;
+}
